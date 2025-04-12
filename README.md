@@ -1,12 +1,53 @@
-# React + Vite
+# 📸 Image Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Image Enhancer** — a powerful React-based web application that lets you enhance images effortlessly using the **Picwis API**. Upload your image, apply enhancements, and download the improved version — all through a clean, intuitive interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📤 Upload images for enhancement
+- ⚙️ Interact with **Picwis API** to process images
+- 📥 Download the enhanced image instantly
+- ✨ Clean and responsive React UI built with **Vite**
+- 🔒 Error handling and API response management via **Axios**
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React + Vite
+- **HTTP Client:** Axios
+- **Image Processing API:** [Picwis API](https://www.picwis.com/)
+- **Version Control:** Git & GitHub
+
+## 📦 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RathoreAbhay/Image-Enhancer.git
+```
+Navigate to the project directory:
+```bash
+cd Image-Enhancer
+```
+Install dependencies:
+```bash
+npm install
+```
+Run the development server:
+```bash
+npm run dev
+```
+
+## 📄 API Reference
+**Picwis API**
+- Base URL: https://api.picwis.com/enhance
+- Request: POST with image data
+- Response: Enhanced image URL
+(Note: Replace with actual API endpoint details if needed)
+
+## 📄 License
+This project is open-source and available under the MIT License.
+
+## 🙌 Contributing
+Pull requests are welcome! Feel free to fork the repo and submit improvements or new features via PR.
+
+**Made with ❤️ by Abhay Rathore**
